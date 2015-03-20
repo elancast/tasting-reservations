@@ -1,0 +1,42 @@
+Eleven Madison Park|eleven-madison-park|211|3|225
+Jean-Georges|jean-georges|3154|3|208
+Le Bernardin|le-bernardin|2508|3|205
+Per Se|per-se|2783|3|310
+Aquavit|aquavit|281|2|135
+Atera|atera|51988|2|225
+Daniel|daniel|337|2|225
+Jungsik|jungsik|63064|2|160
+Marea|marea|31159|2|99
+Soto|soto|36775|2|62
+Ai Fiori|ai-fiori|52969|1|135
+Aldea|aldea|27601|1|135
+Aureole|aureole-new-york|33133|1|148
+Babbo|babbo-ristorante|21790|1|85
+Batard|batard|24382|1|75
+Blue Hill|blue-hill|2090|1|98
+Bouley|bouley|2954|1|125
+Brushstroke|brushstroke|2955|1|135
+Caviar Russe|caviar-russe|6145|1|235
+Danny Brown Wine Bar & Kitchen|danny-brown-wine-bar|84181|1|30
+Del Posto|del-posto|7126|1|126
+Dovetail|dovetail|17953|1|132
+15 East|15-east-restaurant|24433|1|140
+Gramercy Tavern|gramercy-tavern|942|1|120
+Jewel Bako|jewel-bako|103117|1|125
+Juni|juni|106966|1|180
+Junoon|junoon-restaurant|54115|1|95
+Kajitsu|kajitsu|30310|1|95
+Lincoln|lincoln-ristorante|50815|1|76
+Luksus at Torst|luksus|118390|1|95
+Meadowsweet|meadowsweet|141328|1|65
+The Modern|the-modern-dining-room|3695|1|128
+The Musket Room|the-musket-room|106336|1|125
+Picholine|picholine|490|1|125
+Piora|piora|94492|1|125
+The River Cafe|river-cafe-brooklyn|820|1|150
+Rosanjin|rosanjin|16840|1|80
+Sushi of Gari|sushi-of-gari-upper-east-side|20827|1|120
+Telepan|telepan|5064|1|85
+Tori Shin|yakitori-tori-shin|44044|1|65
+Tulsi|tulsi|49918|1|75
+Wallse|wallse|2294|1|90
