@@ -10,9 +10,16 @@ parser = argparse.ArgumentParser(
   )
 
 parser.add_argument(
-  '-price',
-  dest='price',
-  help='Specify a max price you want to pay',
+  '-min',
+  dest='min_price',
+  default='0',
+  help='Specify a minimum price you want to pay',
+  )
+parser.add_argument(
+  '-max',
+  dest='max_price',
+  default='999999999',
+  help='Specify a maximum price you want to pay',
   )
 parser.add_argument(
   '-dates',
@@ -29,7 +36,8 @@ parser.add_argument(
 
 args = parser.parse_args()
 
-restaurants = get_restaurants_under_price(args.price)
+price_range = [int(args.min_price), int(args.max_price)]
+restaurants = get_restaurants_under_price(price_range)
 print 'considering', len(restaurants), 'restaurants...'
 
 dates = []
@@ -49,7 +57,6 @@ all_info = get_reservations_for_list(
   int(args.people),
   want_today,
   )
-print ''
 print ''
 
 print_reservations(dates, restaurants, all_info)

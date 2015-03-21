@@ -1,0 +1,9 @@
+# newline separated list of restaurants we don't want to go to
+# lines starting with # are ignored
+
+dovetail
+15-east-restaurant
+juni
+sushi-of-gari-upper-east-side
+tulsi
+yakitori-tori-shin
