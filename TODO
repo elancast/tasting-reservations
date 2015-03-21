@@ -1,0 +1,16 @@
+WANT:
+Script to take in:
+- price
+- dates
+
+Output:
+- Restaurants with reservations for those dates
+
+
+Tue, Mar 23
+  Restaurant name (90)  ***     5:30  6:30  8:30
+  Restaurant name (100) *       8:30
+
+Wed, Mar 24
+
+... etc
