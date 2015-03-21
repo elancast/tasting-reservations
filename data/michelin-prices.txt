@@ -1,0 +1,42 @@
+Eleven Madison Park|3|225|eleven-madison-park
+Jean-Georges|3|208|jean-georges
+Le Bernardin|3|205|le-bernardin
+Per Se|3|310|per-se
+Aquavit|2|135|aquavit
+Atera|2|225|atera
+Daniel|2|225|daniel
+Jungsik|2|160|jungsik
+Marea|2|99|marea
+Soto|2|62|soto
+Ai Fiori|1|135|ai-fiori
+Aldea|1|135|aldea
+Aureole|1|148|aureole-new-york
+Babbo|1|85|babbo-ristorante
+Batard|1|75|batard
+Blue Hill|1|98|blue-hill
+Bouley|1|125|bouley
+Brushstroke|1|135|brushstroke
+Caviar Russe|1|235|caviar-russe
+Danny Brown Wine Bar & Kitchen|1|30|danny-brown-wine-bar
+Del Posto|1|126|del-posto
+Dovetail|1|132|dovetail
+15 East|1|140|15-east-restaurant
+Gramercy Tavern|1|120|gramercy-tavern
+Jewel Bako|1|125|jewel-bako
+Juni|1|180|juni
+Junoon|1|95|junoon-restaurant
+Kajitsu|1|95|kajitsu
+Lincoln|1|76|lincoln-ristorante
+Luksus at Torst|1|95|luksus
+Meadowsweet|1|65|meadowsweet
+The Modern|1|128|the-modern-dining-room
+The Musket Room|1|125|the-musket-room
+Picholine|1|125|picholine
+Piora|1|125|piora
+The River Cafe|1|150|river-cafe-brooklyn
+Rosanjin|1|80|rosanjin
+Sushi of Gari|1|120|sushi-of-gari-upper-east-side
+Telepan|1|85|telepan
+Tori Shin|1|65|yakitori-tori-shin
+Tulsi|1|75|tulsi
+Wallse|1|90|wallse
