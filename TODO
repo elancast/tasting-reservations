@@ -29,3 +29,9 @@ Name ~ Handle ~ ID ~ Stars ~ Price
 
 Want also: cuisine, neighborhood
 Issue: Stars, price are less relevant -> meh
+
+
+STEPS TO MAKE A NEW LIST:
+1. Define text file with 1 name per line
+2. Run opentable_details_finder.py on the text file specifying an output file
+3. Run list_reservation_finder.py on the output file with dates

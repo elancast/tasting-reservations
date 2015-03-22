@@ -1,5 +1,5 @@
 
-URL = 'http://www.opentable.com/profile/%d/'
+URL = 'http://www.opentable.com/restaurant/profile/%d/'
 
 def get_restaurants_under_price(file_name, price_range):
   lines = _read_list(file_name)

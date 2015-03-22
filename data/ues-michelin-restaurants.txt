@@ -1,0 +1,33 @@
+Central Park BoatHouse ~ central-park-boathouse ~ 20197 ~ 0 ~ 50 ~ Midtown East ~ American
+Wa Jeal ~ wa-jeal ~ 99967 ~ 0 ~ 30 ~ Upper East Side ~ Chinese
+The East Pole - Kitchen and Bar ~ east-pole ~ 107512 ~ 0 ~ 30 ~ Upper East Side ~ American
+JoJo ~ jojo ~ 4871 ~ 0 ~ 50 ~ Upper East Side ~ Contemporary French
+The Regency Bar and Grill ~ regency-bar ~ 117400 ~ 0 ~ 50 ~ Upper East Side ~ American
+Cafe Boulud ~ cafe-boulud ~ 561 ~ 0 ~ 50 ~ Upper East Side ~ French
+Daniel ~ daniel ~ 337 ~ 0 ~ 50 ~ Upper East Side ~ French
+Marche du Sud ~ marche-du-sud ~ 62455 ~ 0 ~ 30 ~ Upper East Side ~ French
+Orsay ~ orsay ~ 4162 ~ 0 ~ 50 ~ Upper East Side ~ French
+Jones Wood Foundry ~ jones-wood-foundry ~ 139633 ~ 0 ~ 50 ~ Upper East Side ~ British
+YEFSI ~ yefsi ~ 74104 ~ 0 ~ 30 ~ Upper East Side ~ Greek
+Andaz ~ andaz ~ 31639 ~ 0 ~ 30 ~ Upper East Side ~ Indian
+Moti Mahal Delux ~ moti-mahal-delux ~ 90220 ~ 0 ~ 50 ~ Upper East Side ~ Indian
+Fatty Fish ~ fatty-fish ~ 144370 ~ 0 ~ 30 ~ Upper East Side ~ Fusion / Eclectic
+Caravaggio New York ~ caravaggio ~ 38926 ~ 0 ~ 50 ~ Upper East Side ~ Italian
+Il Riccio ~ il-riccio ~ 25168 ~ 0 ~ 50 ~ Upper East Side ~ Italian
+Il Ristorante Rosi ~ il-ristorante-rosi ~ 92587 ~ 0 ~ 30 ~ Upper East Side ~ Italian
+Lusardi's Restaurant ~ lusardi's ~ 60169 ~ 0 ~ 50 ~ Upper East Side ~ Italian
+Ristorante Morini ~ ristorante-morini ~ 102508 ~ 0 ~ 50 ~ Upper East Side ~ Italian
+Tiella ~ tiella ~ 75148 ~ 0 ~ 50 ~ Upper East Side ~ Italian
+Uva ~ uva ~ 60163 ~ 0 ~ 30 ~ Upper East Side ~ Italian
+Sushi of Gari - Upper East Side ~ sushi-of-gari ~ 20827 ~ 0 ~ 50 ~ Upper East Side ~ Japanese
+Yakitori Tori Shin ~ tori-shin ~ 44044 ~ 0 ~ 50 ~ Upper East Side ~ Japanese
+FIG & OLIVE Uptown ~ fig-&-olive ~ 7684 ~ 0 ~ 50 ~ Upper East Side ~ Mediterranean
+Maya - New York ~ maya ~ 2501 ~ 0 ~ 30 ~ Upper East Side ~ Mexican
+Persepolis ~ persepolis ~ 42829 ~ 0 ~ 30 ~ Upper East Side ~ Persian
+Atlantic Grill, Eastside ~ atlantic-grill ~ 30514 ~ 0 ~ 50 ~ Upper East Side ~ Seafood
+David Burke Fishtail ~ fishtail ~ 27607 ~ 0 ~ 50 ~ Upper East Side ~ Seafood
+Flex Mussels - 82nd Street ~ flex-mussels ~ 30211 ~ 0 ~ 30 ~ Upper East Side ~ Seafood
+El Porron ~ el-porron ~ 72985 ~ 0 ~ 50 ~ Upper East Side ~ Tapas / Small Plates
+Arlington Club ~ arlington-club ~ 93436 ~ 0 ~ 50 ~ Upper East Side ~ Steakhouse
+Parlor Steakhouse ~ parlor-steakhouse ~ 21670 ~ 0 ~ 50 ~ Upper East Side ~ Steakhouse
+the Nuaa ~ nuaa ~ 106816 ~ 0 ~ 50 ~ Upper East Side ~ Thai

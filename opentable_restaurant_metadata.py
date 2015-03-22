@@ -11,7 +11,7 @@ def write_restaurant(file_name, name):
   restaurant = _find_details(name)
   if restaurant == None:
     return False
-  return write_matched_restaurant(restaurant)
+  return write_matched_restaurant(file_name, restaurant)
 
 def write_additional_data(file_name, restaurant):
   matched = _find_details(restaurant.name, restaurant.rid)
@@ -43,7 +43,7 @@ def _get_best_match(matches, name, id):
     return _get_match_for_id(matches, id)
   if len(matches) > 1:
     return _ask_user_for_match(name, matches)
-  return -1
+  return 0
 
 def _get_match_for_id(matches, id):
   for i in range(len(matches)):
