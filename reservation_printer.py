@@ -1,9 +1,21 @@
+from termcolor import colored
 
-CUISINE_LEN = 20
+CUISINE_LEN = 22
 NAME_LEN = 20
 NEIGHBORHOOD_LEN = 20
 MAX_RESERVATIONS = 6
 TIME_LEN = 7
+
+COLORED_PHRASES = {
+  'East Village': 'green',
+  'Upper East Side': 'green',
+  'Sushi': 'green',
+
+  'Greenwich Village': 'yellow',
+  'Midtown East': 'yellow',
+  'Murray Hill': 'yellow',
+  'Union Square': 'yellow',
+  }
 
 def print_reservations(days, restaurants, reservations):
   printer = ReservationPrinter(restaurants, reservations)
@@ -71,7 +83,12 @@ class ReservationPrinter:
     return '%s  ' % dt.strftime('%I:%M')
 
   def _pad_len(self, s, length):
+    color = self._get_color(s)
     if len(s) > length:
-      return s[:length]
+      s = s[:length]
     else:
-      return s + ''.join([' ' for i in range(length - len(s))])
+      s = s + ''.join([' ' for i in range(length - len(s))])
+    return s if color == None else colored(s, color)
+
+  def _get_color(self, s):
+    return None if not s in COLORED_PHRASES else COLORED_PHRASES[s]
