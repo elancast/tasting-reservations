@@ -1,5 +1,5 @@
 
-URL = 'http://www.opentable.com/%s/'
+URL = 'http://www.opentable.com/profile/%d/'
 
 def get_restaurants_under_price(price_range):
   lines = _read_list()
@@ -56,4 +56,4 @@ class Restaurant:
         self.is_in_price_range(price_range)
 
   def get_url(self):
-    return URL % self.handle
+    return URL % self.rid

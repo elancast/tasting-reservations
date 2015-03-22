@@ -14,3 +14,18 @@ Tue, Mar 23
 Wed, Mar 24
 
 ... etc
+
+
+
+problem names:
+- Diner
+- Cata
+idea: just ask the user
+
+raw_input
+
+FORMAT:
+Name ~ Handle ~ ID ~ Stars ~ Price
+
+Want also: cuisine, neighborhood
+Issue: Stars, price are less relevant -> meh

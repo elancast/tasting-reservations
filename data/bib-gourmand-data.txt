@@ -1,0 +1,45 @@
+ABC Cocina ~ abc-cocina ~ 1286 ~ 0 ~ 30 ~ Union Square ~ Tapas / Small Plates
+Al Bustan ~ al-bustan ~ 38155 ~ 0 ~ 50 ~ Midtown East ~ Lebanese
+Alobar Restaurant ~ alobar ~ 57445 ~ 0 ~ 30 ~ Long Island City ~ Contemporary American
+Baci Abbracci ~ baci-and-abbracci ~ 20914 ~ 0 ~ 30 ~ Williamsburg ~ Italian
+Bar Primi ~ bar-primi ~ 144598 ~ 0 ~ 30 ~ Lower East Side ~ Italian
+Battersby ~ battersby ~ 152311 ~ 0 ~ 50 ~ Cobble Hill ~ American
+Trattoria Bianca ~ bianca ~ 18766 ~ 0 ~ 30 ~ Midtown West ~ Italian
+Bread & Tulips ~ bread-and-tulips ~ 64252 ~ 0 ~ 30 ~ Gramercy / Flatiron ~ Italian
+Buttermilk Channel ~ buttermilk-channel ~ 157408 ~ 0 ~ 50 ~ Carroll Gardens ~ American
+Cata ~ cata ~ 148687 ~ 0 ~ 50 ~ Lower East Side ~ Tapas / Small Plates
+Char No. 4 ~ char-no-4 ~ 95116 ~ 0 ~ 50 ~ Cobble Hill ~ American
+Ciccio ~ ciccio ~ 110842 ~ 0 ~ 30 ~ SoHo ~ Italian
+Crispo ~ crispo ~ 6569 ~ 0 ~ 30 ~ Chelsea ~ Italian
+Dirt Candy ~ dirt-candy ~ 19987 ~ 0 ~ 50 ~ East Village ~ Contemporary American
+Red Egg ~ egg ~ 27763 ~ 0 ~ 30 ~ Chinatown ~ Chinese
+El Parador ~ el-parador ~ 20401 ~ 0 ~ 30 ~ Murray Hill ~ Traditional Mexican
+Fatty Crab ~ fatty-crab ~ 103111 ~ 0 ~ 50 ~ Meatpacking District ~ Asian
+franny's ~ franny's ~ 166171 ~ 0 ~ 50 ~ Park Slope ~ Pizzeria
+Hecho en Dumbo Chef's Table Menu Prix Fixe ~ hecho-en-dumbo ~ 59767 ~ 0 ~ 50 ~ East Village ~ Mexican
+Il Buco Alimentari & Vineria ~ il-buco-alimentari-&-vineria ~ 75070 ~ 0 ~ 50 ~ NoHo ~ Italian
+Khe-Yo ~ khe-yo ~ 110548 ~ 0 ~ 50 ~ TriBeCa - Downtown ~ Southeast Asian
+Laut ~ laut ~ 113263 ~ 0 ~ 30 ~ Union Square ~ Malaysian
+Lea Restaurant ~ lea ~ 157606 ~ 0 ~ 30 ~ Ditmas Park ~ Italian
+L'Ecole- Restaurant of the International Culinary Center ~ lecole ~ 4082 ~ 0 ~ 50 ~ SoHo ~ International
+Lil' Frankie's ~ lil-frankies ~ 113683 ~ 0 ~ 30 ~ East Village ~ Italian
+Lupa ~ lupa ~ 11266 ~ 0 ~ 50 ~ Greenwich Village ~ Italian
+Mile End Delicatessen ~ mile-end ~ 114721 ~ 0 ~ 30 ~ NoHo ~ American
+Momokawa ~ momokawa ~ 101851 ~ 0 ~ 30 ~ Kips Bay ~ Asian
+Pearl and Ash ~ pearl-and-ash ~ 108178 ~ 0 ~ 50 ~ Lower East Side ~ Contemporary American
+Porsena ~ porsena ~ 159694 ~ 0 ~ 30 ~ East Village ~ Italian
+Prime Meats ~ prime-meats ~ 150802 ~ 0 ~ 50 ~ Carroll Gardens ~ American
+Rubirosa ~ rubirosa ~ 53335 ~ 0 ~ 30 ~ NoLita ~ Italian
+Runner & Stone ~ runner-and-stone ~ 108232 ~ 0 ~ 30 ~ Gowanus ~ Contemporary American
+Rye ~ rye ~ 105424 ~ 0 ~ 50 ~ Williamsburg ~ American
+Shalom Japan ~ shalom-japan ~ 108589 ~ 0 ~ 50 ~ Williamsburg ~ American
+Somtum Der ~ somtum-der ~ 157030 ~ 0 ~ 30 ~ East Village ~ Thai
+Supper Restaurant ~ supper ~ 113692 ~ 0 ~ 30 ~ East Village ~ Italian
+Tangled Vine ~ tang ~ 140917 ~ 0 ~ 30 ~ Upper West Side ~ Mediterranean
+Tanoreen ~ tanoreen ~ 92335 ~ 0 ~ 50 ~ Bay Ridge ~ Middle Eastern
+Tertulia ~ tertulia ~ 147499 ~ 0 ~ 50 ~ West Village ~ Spanish
+Uva ~ uva ~ 60163 ~ 0 ~ 30 ~ Upper East Side ~ Italian
+Vidalia Restaurant ~ vida ~ 61591 ~ 0 ~ 30 ~ Lawrenceville ~ Italian
+Wild Edibles Oyster Bar ~ wild-edibles ~ 166702 ~ 0 ~ 50 ~ Murray Hill ~ Seafood
+Yunnan Kitchen ~ yunnan-kitchen ~ 151321 ~ 0 ~ 50 ~ Lower East Side ~ Chinese
+Trattoria Zero Otto Nove ~ zero-otto-nove ~ 89980 ~ 0 ~ 30 ~ Chelsea ~ Italian
