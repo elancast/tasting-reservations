@@ -1,5 +1,7 @@
 
+CUISINE_LEN = 20
 NAME_LEN = 20
+NEIGHBORHOOD_LEN = 20
 MAX_RESERVATIONS = 6
 TIME_LEN = 7
 
@@ -47,7 +49,7 @@ class ReservationPrinter:
     stars_text = ''.join(['*' for i in range(restaurant.stars)])
     price_text = self._pad_len('(%d)' % restaurant.price, 5)
 
-    # **  (price) Name         <times>    <url>
+    # **  (price) Name         <times>  <neighborhood> <cuisine>  <url>
     print self._pad_len(stars_text, 3),
     print price_text,
     print self._pad_len(restaurant.name, NAME_LEN),
@@ -58,6 +60,9 @@ class ReservationPrinter:
       reservations
       ))
     print self._pad_len(times, TIME_LEN * MAX_RESERVATIONS),
+
+    print self._pad_len(restaurant.neighborhood, NEIGHBORHOOD_LEN), '',
+    print self._pad_len(restaurant.cuisine, CUISINE_LEN), '',
 
     print restaurant.get_url(),
     print ''

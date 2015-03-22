@@ -10,6 +10,12 @@ parser = argparse.ArgumentParser(
   )
 
 parser.add_argument(
+  '-listfile',
+  dest='list_file',
+  required=True,
+  help='Enter a file name containing the list of restaurants to consider',
+  )
+parser.add_argument(
   '-min',
   dest='min_price',
   default='0',
@@ -37,7 +43,7 @@ parser.add_argument(
 args = parser.parse_args()
 
 price_range = [int(args.min_price), int(args.max_price)]
-restaurants = get_restaurants_under_price(price_range)
+restaurants = get_restaurants_under_price(args.list_file, price_range)
 print 'considering', len(restaurants), 'restaurants...'
 
 dates = []

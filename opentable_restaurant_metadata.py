@@ -8,15 +8,24 @@ FIND_URL = 'http://www.opentable.com/start/httphandlers/autocompletehandler.ashx
 PROFILE_URL = 'http://www.opentable.com/restaurant/profile/%d'
 
 def write_restaurant(file_name, name):
-  restaurant = find_details(name)
+  restaurant = _find_details(name)
   if restaurant == None:
     return False
+  return write_matched_restaurant(restaurant)
 
+def write_additional_data(file_name, restaurant):
+  matched = _find_details(restaurant.name, restaurant.rid)
+  if matched == None:
+    return False
+  matched.fill_with_existing_data(restaurant)
+  return write_matched_restaurant(file_name, matched)
+
+def write_matched_restaurant(file_name, restaurant):
   restaurant.fill_additional_fields()
   restaurant.write_to_file(file_name)
   return True
 
-def find_details(name):
+def _find_details(name, id=None):
   url = FIND_URL % urllib.quote_plus(name.strip())
   s = open_page(br, url)
 
@@ -24,14 +33,25 @@ def find_details(name):
   matches = doc['Restaurants']
   if len(matches) == 0: return None
 
-  match_index = 0
-  if len(matches) > 1:
-    match_index = ask_user_for_match(name, matches)
+  match_index = _get_best_match(matches, name, id)
   if match_index < 0: return None
 
   return RestaurantDetails(name, matches[match_index])
 
-def ask_user_for_match(name, matches):
+def _get_best_match(matches, name, id):
+  if id != None:
+    return _get_match_for_id(matches, id)
+  if len(matches) > 1:
+    return _ask_user_for_match(name, matches)
+  return -1
+
+def _get_match_for_id(matches, id):
+  for i in range(len(matches)):
+    if matches[i]['Id'] == id:
+      return i
+  return -1
+
+def _ask_user_for_match(name, matches):
   print 'Which is the best match for', name + '? Enter -1 if none match.'
   for i in range(len(matches)):
     print '%d: %s in %s' % \
@@ -56,22 +76,30 @@ class RestaurantDetails:
     self.name = match_json['Name']
     self.rid = match_json['Id']
     self.neighborhood = match_json['Neighborhood']['Name']
+
+    self.stars = 0
     self.price = -1
     self.cuisine = ''
 
   def get_handle(self):
     return self.handle_src.lower().replace(' ', '-')
 
+  def fill_with_existing_data(self, restaurant):
+    self.handle_src = restaurant.handle
+    self.name = restaurant.name
+    self.stars = restaurant.stars
+    self.price = restaurant.price
+
   def fill_additional_fields(self):
     s = open_page(br, PROFILE_URL % self.rid)
-
-    price_range = self._read_itemprop(s, 'priceRange')
-    dstart = price_range.rfind('$') + 1
-    dend = price_range.find(' ', dstart)
-    if dend < 0: dend = len(price_range)
-
-    self.price = int(price_range[dstart:dend])
     self.cuisine = self._read_itemprop(s, 'servesCuisine')
+
+    if self.price < 0:
+      price_range = self._read_itemprop(s, 'priceRange')
+      dstart = price_range.rfind('$') + 1
+      dend = price_range.find(' ', dstart)
+      if dend < 0: dend = len(price_range)
+      self.price = int(price_range[dstart:dend])
 
   def _read_itemprop(self, s, prop):
     search_string = 'itemprop="%s"' % prop
@@ -85,7 +113,7 @@ class RestaurantDetails:
       self.name,
       self.get_handle(),
       str(self.rid),
-      '0',
+      str(self.stars),
       str(self.price),
       self.neighborhood,
       self.cuisine,

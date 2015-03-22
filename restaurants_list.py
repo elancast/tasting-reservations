@@ -1,9 +1,9 @@
 
 URL = 'http://www.opentable.com/profile/%d/'
 
-def get_restaurants_under_price(price_range):
-  lines = _read_list()
-  blacklist = _read_blacklist()
+def get_restaurants_under_price(file_name, price_range):
+  lines = _read_list(file_name)
+  blacklist = _read_blacklist(file_name)
 
   results = filter(
     lambda restaurant: restaurant.is_valid(price_range, blacklist),
@@ -13,6 +13,10 @@ def get_restaurants_under_price(price_range):
   _warn_blacklist(blacklist)
   return results
 
+def get_restaurants(file_name):
+  lines = _read_list(file_name)
+  return map(lambda line: Restaurant(line), lines)
+
 def _warn_blacklist(blacklist):
   blacklist = filter(
     lambda i: len(i.strip()) > 0 and not i.startswith('#'),
@@ -21,14 +25,21 @@ def _warn_blacklist(blacklist):
   if len(blacklist) > 0:
     print 'Warning: unrecognized blacklist:', ', '.join(blacklist)
 
-def _read_blacklist():
-  f = open('data/blacklist.txt', 'r')
-  lines = f.read().strip().split('\n')
-  f.close()
-  return set(lines)
+def _read_blacklist(list_file):
+  index = list_file.rfind('/') + 1
+  blacklist_file = list_file[:index] + 'blacklist-' + list_file[index:]
 
-def _read_list():
-  f = open('data/michelin-prices-2.txt', 'r')
+  try:
+    f = open(blacklist_file, 'r')
+    lines = f.read().strip().split('\n')
+    f.close()
+    return set(lines)
+  except:
+    print 'No blacklist file found at', blacklist_file
+    return set()
+
+def _read_list(file_name):
+  f = open(file_name, 'r')
   lines = f.read().strip().split('\n')
   f.close()
   return lines
@@ -41,6 +52,8 @@ class Restaurant:
     self.rid = int(parts[2])
     self.stars = int(parts[3])
     self.price = int(parts[4])
+    self.neighborhood = parts[5]
+    self.cuisine = parts[6]
 
   def is_in_price_range(self, range):
     return self.price >= range[0] and self.price <= range[1]
