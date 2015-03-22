@@ -44,15 +44,18 @@ class ReservationPrinter:
     if len(restaurants) == 0:
       print '  No reservations found.'
 
-    # Sort restaurants by name and then print their details
+    # Sort restaurants by optimal output ordering and then print!
     ordered_rids = sorted(
       restaurants.keys(),
-      key=lambda rid: self._restaurants[rid].price
+      key=lambda rid: self._get_sort(self._restaurants[rid])
       )
     for rid in ordered_rids:
       self._print_restaurant_reservations(rid, restaurants[rid])
 
     print ''
+
+  def _get_sort(self, restaurant):
+    return (restaurant.price, restaurant.name.lower())
 
   def _print_restaurant_reservations(self, rid, reservations):
     if len(reservations) == 0: return
