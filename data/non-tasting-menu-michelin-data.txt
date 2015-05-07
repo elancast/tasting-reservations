@@ -1,0 +1,16 @@
+Andanada ~ andanada ~ 53119 ~ 1 ~ 50 ~ Upper West Side ~ Spanish
+Batard ~ batard ~ 24382 ~ 1 ~ 50 ~ TriBeCa - Downtown ~ Modern European
+Betony ~ betony ~ 78406 ~ 1 ~ 50 ~ Midtown West ~ American
+Blue Hill ~ blue-hill ~ 2090 ~ 1 ~ 50 ~ West Village ~ American
+Bouley ~ bouley ~ 2954 ~ 1 ~ 50 ~ TriBeCa - Downtown ~ French
+Cafe Boulud ~ cafe-boulud ~ 561 ~ 1 ~ 50 ~ Upper East Side ~ French
+Carbone ~ carbone ~ 104293 ~ 1 ~ 50 ~ Greenwich Village ~ Italian
+Casa Mono ~ casa-mono ~ 34048 ~ 1 ~ 50 ~ Union Square ~ Spanish
+Gotham Bar and Grill ~ gotham-bar-and-grill ~ 6200 ~ 1 ~ 50 ~ Union Square ~ Contemporary American
+Hakkasan - New York ~ hakkasan ~ 83344 ~ 1 ~ 50 ~ Midtown West ~ Chinese
+La Vara ~ la-vara ~ 113743 ~ 1 ~ 30 ~ Cobble Hill ~ Spanish
+Minetta Tavern ~ minetta-tavern ~ 30628 ~ 1 ~ 50 ~ West Village ~ French
+PUBLIC ~ public ~ 2589 ~ 1 ~ 50 ~ NoLita ~ International
+Pok Pok NY ~ pok-pok-ny ~ 166492 ~ 1 ~ 30 ~ Cobble Hill ~ Southeast Asian
+The Breslin Bar and Dining Room ~ the-breslin ~ 144697 ~ 1 ~ 50 ~ Chelsea ~ American
+ZZ'S Clam Bar ~ zzs-clam-bar ~ 157231 ~ 1 ~ 50 ~ Greenwich Village ~ Seafood

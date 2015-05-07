@@ -1,0 +1,54 @@
+Ai Fiori ~ ai-fiori ~ 52969 ~ 1 ~ 50 ~ Midtown West ~ Contemporary European
+Aldea ~ aldea ~ 27601 ~ 1 ~ 50 ~ Gramercy / Flatiron ~ Mediterranean
+Andanada ~ andanada ~ 53119 ~ 1 ~ 50 ~ Upper West Side ~ Spanish
+Aureole ~ aureole ~ 33133 ~ 1 ~ 50 ~ Theater District / Times Square ~ American
+Babbo Ristorante ~ babbo ~ 21790 ~ 1 ~ 50 ~ Greenwich Village ~ Italian
+Batard ~ batard ~ 24382 ~ 1 ~ 50 ~ TriBeCa - Downtown ~ Modern European
+Betony ~ betony ~ 78406 ~ 1 ~ 50 ~ Midtown West ~ American
+Blue Hill ~ blue-hill ~ 2090 ~ 1 ~ 50 ~ West Village ~ American
+Bouley ~ bouley ~ 2954 ~ 1 ~ 50 ~ TriBeCa - Downtown ~ French
+The Breslin Bar and Dining Room ~ the-breslin ~ 144697 ~ 1 ~ 50 ~ Chelsea ~ American
+brushstroke ~ brushstroke ~ 2955 ~ 1 ~ 50 ~ TriBeCa - Downtown ~ Japanese
+Cafe Boulud ~ cafe-boulud ~ 561 ~ 1 ~ 50 ~ Upper East Side ~ French
+Carbone ~ carbone ~ 104293 ~ 1 ~ 50 ~ Greenwich Village ~ Italian
+Casa Mono ~ casa-mono ~ 34048 ~ 1 ~ 50 ~ Union Square ~ Spanish
+Caviar Russe ~ caviar-russe ~ 6145 ~ 1 ~ 50 ~ Midtown East ~ Contemporary French
+Danny Brown Wine Bar ~ danny-brown-wine-bar ~ 84181 ~ 1 ~ 30 ~ Forest Hills ~ Contemporary European
+Del Posto ~ del-posto ~ 7126 ~ 1 ~ 50 ~ Meatpacking District ~ Italian
+Dovetail ~ dovetail ~ 17953 ~ 1 ~ 50 ~ Upper West Side ~ American
+15 East Restaurant ~ 15-east ~ 24433 ~ 1 ~ 50 ~ Union Square ~ Sushi
+Gotham Bar and Grill ~ gotham-bar-and-grill ~ 6200 ~ 1 ~ 50 ~ Union Square ~ Contemporary American
+Gramercy Tavern ~ gramercy-tavern ~ 942 ~ 1 ~ 50 ~ Gramercy / Flatiron ~ American
+Hakkasan - New York ~ hakkasan ~ 83344 ~ 1 ~ 50 ~ Midtown West ~ Chinese
+Jewel Bako ~ jewel-bako ~ 103117 ~ 1 ~ 50 ~ East Village ~ Sushi
+Juni ~ juni ~ 106966 ~ 1 ~ 50 ~ Gramercy / Flatiron ~ Contemporary American
+Junoon Restaurant ~ junoon ~ 54115 ~ 1 ~ 50 ~ Gramercy / Flatiron ~ Indian
+Kajitsu ~ kajitsu ~ 30310 ~ 1 ~ 50 ~ Murray Hill ~ Japanese
+La Vara ~ la-vara ~ 113743 ~ 1 ~ 30 ~ Cobble Hill ~ Spanish
+Lincoln Ristorante ~ lincoln ~ 50815 ~ 1 ~ 50 ~ Upper West Side ~ Italian
+Meadowsweet ~ meadowsweet ~ 141328 ~ 1 ~ 30 ~ Williamsburg ~ American
+Minetta Tavern ~ minetta-tavern ~ 30628 ~ 1 ~ 50 ~ West Village ~ French
+The Modern - Dining Room ~ the-modern ~ 3695 ~ 1 ~ 50 ~ Midtown West ~ Contemporary American
+The Musket Room ~ the-musket-room ~ 106336 ~ 1 ~ 50 ~ NoLita ~ International
+Picholine ~ picholine ~ 490 ~ 1 ~ 50 ~ Lincoln Square ~ French
+Piora ~ piora ~ 94492 ~ 1 ~ 50 ~ West Village ~ Contemporary American
+Pok Pok NY ~ pok-pok-ny ~ 166492 ~ 1 ~ 30 ~ Cobble Hill ~ Southeast Asian
+PUBLIC ~ public ~ 2589 ~ 1 ~ 50 ~ NoLita ~ International
+River Cafe ~ the-river-cafe ~ 820 ~ 1 ~ 50 ~ DUMBO / Vinegar Hill ~ American
+Rosanjin ~ rosanjin ~ 16840 ~ 1 ~ 50 ~ TriBeCa - Downtown ~ Japanese
+Sushi of Gari - Upper East Side ~ sushi-of-gari ~ 20827 ~ 1 ~ 50 ~ Upper East Side ~ Japanese
+Telepan ~ telepan ~ 5064 ~ 1 ~ 50 ~ Upper West Side ~ Contemporary American
+Yakitori Tori Shin ~ tori-shin ~ 44044 ~ 1 ~ 50 ~ Upper East Side ~ Japanese
+Tulsi ~ tulsi ~ 49918 ~ 1 ~ 50 ~ Midtown East ~ Indian
+Wallse ~ wallse ~ 2294 ~ 1 ~ 50 ~ West Village ~ Modern European
+ZZ'S Clam Bar ~ zzs-clam-bar ~ 157231 ~ 1 ~ 50 ~ Greenwich Village ~ Seafood
+Aquavit ~ aquavit ~ 281 ~ 2 ~ 50 ~ Midtown East ~ Scandinavian
+Atera ~ atera ~ 51988 ~ 2 ~ 50 ~ TriBeCa - Downtown ~ Contemporary American
+Daniel ~ daniel ~ 337 ~ 2 ~ 50 ~ Upper East Side ~ French
+JUNGSIK ~ jungsik ~ 63064 ~ 2 ~ 50 ~ TriBeCa - Downtown ~ Korean
+Marea ~ marea ~ 31159 ~ 2 ~ 50 ~ Midtown West ~ Italian
+Soto ~ soto ~ 36775 ~ 2 ~ 50 ~ West Village ~ Japanese
+Eleven Madison Park ~ eleven-madison-park ~ 211 ~ 3 ~ 50 ~ Gramercy / Flatiron ~ American
+Jean-Georges ~ jean-georges ~ 3154 ~ 3 ~ 50 ~ Upper West Side ~ Contemporary American
+Le Bernardin ~ le-bernardin ~ 2508 ~ 3 ~ 50 ~ Theater District / Times Square ~ French
+Per Se ~ per-se ~ 2783 ~ 3 ~ 50 ~ Columbus Circle ~ American

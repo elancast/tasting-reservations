@@ -82,7 +82,8 @@ class RestaurantDetails:
     self.cuisine = ''
 
   def get_handle(self):
-    return self.handle_src.lower().replace(' ', '-')
+    handle_src = self.handle_src.decode('utf-8', 'replace').encode('ascii', 'replace')
+    return handle_src.lower().replace(' ', '-')
 
   def fill_with_existing_data(self, restaurant):
     self.handle_src = restaurant.handle

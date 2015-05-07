@@ -1,0 +1,6 @@
+Aquavit ~ aquavit ~ 281 ~ 2 ~ 50 ~ Midtown East ~ Scandinavian
+Atera ~ atera ~ 51988 ~ 2 ~ 50 ~ TriBeCa - Downtown ~ Contemporary American
+Daniel ~ daniel ~ 337 ~ 2 ~ 50 ~ Upper East Side ~ French
+JUNGSIK ~ jungsik ~ 63064 ~ 2 ~ 50 ~ TriBeCa - Downtown ~ Korean
+Marea ~ marea ~ 31159 ~ 2 ~ 50 ~ Midtown West ~ Italian
+Soto ~ soto ~ 36775 ~ 2 ~ 50 ~ West Village ~ Japanese
