@@ -1,9 +1,9 @@
 
 URL = 'http://www.opentable.com/restaurant/profile/%d/'
 
-def get_restaurants_under_price(file_name, price_range):
+def get_restaurants_under_price(file_name, price_range, no_blacklist):
   lines = _read_list(file_name)
-  blacklist = _read_blacklist(file_name)
+  blacklist = [] if no_blacklist else _read_blacklist(file_name)
 
   results = filter(
     lambda restaurant: restaurant.is_valid(price_range, blacklist),

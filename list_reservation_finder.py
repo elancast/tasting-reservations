@@ -39,11 +39,21 @@ parser.add_argument(
   default=2,
   help='Number of people attending reservation',
   )
+parser.add_argument(
+  '-noblacklist',
+  dest='is_no_blacklist',
+  type=bool,
+  help='Don\'t use the blacklist',
+  default=False,
+  )
 
 args = parser.parse_args()
 
+if args.is_no_blacklist:
+  print 'not considering the blacklist'
+
 price_range = [int(args.min_price), int(args.max_price)]
-restaurants = get_restaurants_under_price(args.list_file, price_range)
+restaurants = get_restaurants_under_price(args.list_file, price_range, args.is_no_blacklist)
 print 'considering', len(restaurants), 'restaurants...'
 
 dates = []
