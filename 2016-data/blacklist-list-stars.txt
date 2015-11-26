@@ -1,0 +1,16 @@
+# newline separated list of restaurants we don't want to go to
+# lines starting with # are ignored
+
+eleven-madison-park
+jean-georges
+per-se
+the-modern
+soto
+ai-fiori
+andanada
+dovetail
+jewel-bako
+juni
+sushi-of-gari
+tori-shin
+tulsi

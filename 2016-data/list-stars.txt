@@ -1,0 +1,58 @@
+Eleven Madison Park ~ eleven-madison-park ~ 211 ~ 3 ~ 211 ~ Gramercy / Flatiron ~ American
+Jean Georges ~ jean-georges ~ 3154 ~ 3 ~ 218 ~ Midtown West ~ French
+Le Bernardin ~ le-bernardin ~ 2508 ~ 3 ~ 215 ~ Theater District / Times Square ~ French
+Per Se ~ per-se ~ 2783 ~ 3 ~ 310 ~ Columbus Circle ~ American
+Aquavit ~ aquavit ~ 281 ~ 2 ~ 145 ~ Midtown East ~ Scandinavian
+Atera ~ atera ~ 51988 ~ 2 ~ 235 ~ TriBeCa - Downtown ~ Contemporary American
+Daniel ~ daniel ~ 337 ~ 2 ~ 234 ~ Upper East Side ~ French
+JUNGSIK ~ jungsik ~ 63064 ~ 2 ~ 180 ~ TriBeCa - Downtown ~ Korean
+Marea ~ marea ~ 31159 ~ 2 ~ 50 ~ Midtown West ~ Italian
+The Modern - Dining Room ~ the-modern ~ 3695 ~ 2 ~ 182 ~ Midtown West ~ Contemporary American
+Soto ~ soto ~ 36775 ~ 2 ~ 50 ~ West Village ~ Japanese
+Ai Fiori ~ ai-fiori ~ 52969 ~ 1 ~ 150 ~ Midtown West ~ Contemporary European
+Aldea ~ aldea ~ 27601 ~ 1 ~ 135 ~ Gramercy / Flatiron ~ Mediterranean
+Andanada ~ andanada ~ 53119 ~ 1 ~ 50 ~ Upper West Side ~ Spanish
+Aureole ~ aureole ~ 33133 ~ 1 ~ 148 ~ Theater District / Times Square ~ American
+Babbo Ristorante ~ babbo ~ 21790 ~ 1 ~ 99 ~ Greenwich Village ~ Italian
+Batard ~ batard ~ 24382 ~ 1 ~ 79 ~ TriBeCa - Downtown ~ Modern European
+Betony ~ betony ~ 78406 ~ 1 ~ 195 ~ Midtown West ~ American
+Blue Hill at Stone Barns ~ blue-hill ~ 2886 ~ 1 ~ 98 ~ Pocantico Hills ~ American
+Bouley ~ bouley ~ 2954 ~ 1 ~ 185 ~ TriBeCa - Downtown ~ French
+The Breslin Bar and Dining Room ~ the-breslin ~ 144697 ~ 1 ~ 50 ~ Chelsea ~ American
+brushstroke ~ brushstroke ~ 2955 ~ 1 ~ 135 ~ TriBeCa - Downtown ~ Japanese
+Cafe Boulud ~ cafe-boulud ~ 561 ~ 1 ~ 50 ~ Upper East Side ~ French
+Cagen ~ cagen ~ 112210 ~ 1 ~ 140 ~ East Village ~ Japanese
+Carbone ~ carbone ~ 104293 ~ 1 ~ 50 ~ Greenwich Village ~ Italian
+Casa Mono ~ casa-mono ~ 34048 ~ 1 ~ 50 ~ Union Square ~ Spanish
+Caviar Russe ~ caviar-russe ~ 6145 ~ 1 ~ 395 ~ Midtown East ~ Contemporary French
+Del Posto ~ del-posto ~ 7126 ~ 1 ~ 179 ~ Meatpacking District ~ Italian
+Dovetail ~ dovetail ~ 17953 ~ 1 ~ 135 ~ Upper West Side ~ Contemporary American
+The Finch ~ the-finch ~ 167029 ~ 1 ~ 50 ~ Clinton Hill ~ Contemporary American
+Gabriel Kreuther ~ gabriel-kreuther ~ 186475 ~ 1 ~ 195 ~ Midtown West ~ French American
+Gotham Bar and Grill ~ gotham-bar-and-grill ~ 6200 ~ 1 ~ 50 ~ Union Square ~ Contemporary American
+Gramercy Tavern ~ gramercy-tavern ~ 942 ~ 1 ~ 120 ~ Gramercy / Flatiron ~ American
+Jewel Bako ~ jewel-bako ~ 103117 ~ 1 ~ 125 ~ East Village ~ Sushi
+Juni ~ juni ~ 106966 ~ 1 ~ 185 ~ Gramercy / Flatiron ~ Contemporary American
+Junoon Restaurant ~ junoon ~ 54115 ~ 1 ~ 75 ~ Gramercy / Flatiron ~ Indian
+Kajitsu ~ kajitsu ~ 30310 ~ 1 ~ 95 ~ Murray Hill ~ Japanese
+La Vara ~ la-vara ~ 113743 ~ 1 ~ 30 ~ Cobble Hill ~ Spanish
+Luksus ~ luksus ~ 118390 ~ 1 ~ 125 ~ Greenpoint ~ Scandinavian
+Meadowsweet ~ meadowsweet ~ 141328 ~ 1 ~ 75 ~ Williamsburg ~ American
+Minetta Tavern ~ minetta-tavern ~ 30628 ~ 1 ~ 50 ~ West Village ~ French
+The Musket Room - Tasting Menu Garden Room ~ the-musket-room ~ 185587 ~ 1 ~ 145 ~ NoLita ~ International
+The NoMad ~ nomad ~ 78730 ~ 1 ~ 50 ~ Chelsea ~ Contemporary American
+Piora ~ piora ~ 94492 ~ 1 ~ 145 ~ West Village ~ Contemporary American
+Pok Pok NY ~ pok-pok-ny ~ 166492 ~ 1 ~ 30 ~ Cobble Hill ~ Southeast Asian
+PUBLIC ~ public ~ 2589 ~ 1 ~ 50 ~ NoLita ~ International
+Rebelle ~ rebelle ~ 149788 ~ 1 ~ 50 ~ Lower East Side ~ Contemporary French
+River Cafe ~ the-river-cafe ~ 820 ~ 1 ~ 150 ~ DUMBO / Vinegar Hill ~ American
+Rosanjin ~ rosanjin ~ 16840 ~ 1 ~ 200 ~ TriBeCa - Downtown ~ Japanese
+Somtum Der ~ somtum-der ~ 157030 ~ 1 ~ 30 ~ East Village ~ Thai
+Sushi of Gari 46 ~ sushi-of-gari ~ 17965 ~ 1 ~ 50 ~ Theater District / Times Square ~ Japanese
+Telepan ~ telepan ~ 5064 ~ 1 ~ 85 ~ Upper West Side ~ Contemporary American
+Tempura Matsui ~ tempura-matsui ~ 172303 ~ 1 ~ 200 ~ Midtown East ~ Japanese
+Yakitori Tori Shin - Select Counter ~ tori-shin ~ 191380 ~ 1 ~ 65 ~ Midtown West ~ Japanese
+Tulsi ~ tulsi ~ 49918 ~ 1 ~ 75 ~ Midtown East ~ Indian
+Uncle Boons ~ uncle-boons ~ 162838 ~ 1 ~ 30 ~ NoLita ~ Thai
+Wallse ~ wallse ~ 2294 ~ 1 ~ 90 ~ West Village ~ Modern European
+ZZ'S Clam Bar ~ zzs-clam-bar ~ 157231 ~ 1 ~ 50 ~ Greenwich Village ~ Seafood
