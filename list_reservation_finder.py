@@ -1,7 +1,7 @@
 import argparse
 import datetime
 
-from opentable_reservations import get_reservations_for_list
+from opentable_reservations_v2 import find_reservation_availability
 from reservation_printer import print_reservations
 from restaurants_list import get_restaurants_under_price
 
@@ -34,6 +34,12 @@ parser.add_argument(
   required=True
   )
 parser.add_argument(
+  '-hour',
+  dest='hour',
+  help='Enter the hour to search around as hh. Defaults to 19.',
+  default='19',
+  )
+parser.add_argument(
   '-people',
   dest='people',
   default=2,
@@ -56,23 +62,21 @@ price_range = [int(args.min_price), int(args.max_price)]
 restaurants = get_restaurants_under_price(args.list_file, price_range, args.is_no_blacklist)
 print 'considering', len(restaurants), 'restaurants...'
 
-dates = []
+dts = []
+hour = int(args.hour)
 want_today = False
 for s in args.dates.split(','):
-  date = datetime.datetime.strptime(s.strip(), '%m/%d/%Y').date()
-  dates.append(date)
-  want_today = want_today or date == datetime.date.today()
+  dt = datetime.datetime.strptime(s.strip(), '%m/%d/%Y')
+  dt = dt.replace(hour=hour, minute=0, second=0, microsecond=0)
+  dts.append(dt)
 
-# Date we pass in doesn't matter - it can even be in the past! - just want time
-now = datetime.datetime.now()
-tonight = now.replace(hour=19, minute=0, second=0, microsecond=0)
-
-all_info = get_reservations_for_list(
-  tonight,
+# Map: {rid: {date: [times]}}
+# i.e: {2508: {'2016-11-10': ['17:15'], '2016-11-14': ['21:30', '21:00', '17:15']}}
+all_info = find_reservation_availability(
+  dts,
   map(lambda r: r.rid, restaurants),
   int(args.people),
-  want_today,
   )
 print ''
 
-print_reservations(dates, restaurants, all_info)
+print_reservations(dts, restaurants, all_info)

@@ -17,9 +17,9 @@ COLORED_PHRASES = {
   'Union Square': 'yellow',
   }
 
-def print_reservations(days, restaurants, reservations):
+def print_reservations(dts, restaurants, reservations):
   printer = ReservationPrinter(restaurants, reservations)
-  map(lambda day: printer.print_day(day), sorted(days))
+  map(lambda dt: printer.print_day(dt), sorted(dts))
 
 class ReservationPrinter:
   def __init__(self, restaurants, reservations):
@@ -31,14 +31,15 @@ class ReservationPrinter:
     # Index reservations by date, then by restaurant ID
     self._reservations = {}
     for rid in reservations:
-      for (date, r_list) in reservations[rid]:
+      for date in reservations[rid]:
         if not date in self._reservations:
           self._reservations[date] = {}
-        self._reservations[date][rid] = r_list
+        self._reservations[date][rid] = reservations[rid][date]
 
-  def print_day(self, day):
-    print day.strftime('%a, %b %d')
+  def print_day(self, dt):
+    print dt.strftime('%a, %b %d')
 
+    day = dt.strftime('%Y-%m-%d')
     restaurants = \
         {} if not day in self._reservations else self._reservations[day]
     if len(restaurants) == 0:
@@ -57,8 +58,8 @@ class ReservationPrinter:
   def _get_sort(self, restaurant):
     return (restaurant.price, restaurant.name.lower())
 
-  def _print_restaurant_reservations(self, rid, reservations):
-    if len(reservations) == 0: return
+  def _print_restaurant_reservations(self, rid, times):
+    if len(times) == 0: return
 
     restaurant = self._restaurants[rid]
     stars_text = ''.join(['*' for i in range(restaurant.stars)])
@@ -71,8 +72,8 @@ class ReservationPrinter:
     print self._pad_len('', 6),
 
     times = ''.join(map(
-      lambda dt: self._stringitize_reservation(dt),
-      reservations
+      lambda time: self._stringitize_reservation(time),
+      times
       ))
     print self._pad_len(times, TIME_LEN * MAX_RESERVATIONS),
 
@@ -82,8 +83,8 @@ class ReservationPrinter:
     print restaurant.get_url(),
     print ''
 
-  def _stringitize_reservation(self, dt):
-    return '%s  ' % dt.strftime('%I:%M')
+  def _stringitize_reservation(self, time):
+    return '%s  ' % time
 
   def _pad_len(self, s, length):
     color = self._get_color(s)
